@@ -27,7 +27,7 @@ body{
 
 
 .details-field-paragraph{
-    margin: 2rem 3rem;
+    margin: 2rem 2.5rem;
     font-weight:100 ;
     text-transform: uppercase;
     font-size: .8rem;
@@ -64,6 +64,7 @@ input[type=text]:hover{
     height: 3rem;
     overflow: hidden;
     margin-top: 5rem;
+    margin-right: 2.6rem;
             
 }
 
