@@ -26,7 +26,7 @@ body{
 }
 
 
-p{
+.details-field-paragraph{
     margin: .7rem 3rem;
     font-weight:100 ;
     text-transform: uppercase;
@@ -75,14 +75,19 @@ input[type=text]:hover{
 
 
 
-#age{
-    margin-left: 1rem; 
-    font-size: 2.4rem;
+.result-container{
+    padding: .5rem;
+    font-size: 2.3rem;
     overflow: hidden; 
     font-family: 'Poppins', sans-serif;
-    padding: .5rem .5rem ;
-    font-weight: 1000;
+    font-weight: bolder;
 }
+.result-text{
+   padding: .2rem .2rem;
+   margin: .1rem .1rem;
+}
+
+
 
 span {
     color: hsl(259, 100%, 65%);

@@ -14,21 +14,21 @@
         <div class="label-box">
         <article class="details">
          <div class="details-field">
-           <p> Day</p>
+           <p class="details-field-paragraph"> Day</p>
            <input type="text" name="date" id="date" required 
-           minlength="1" maxlength="2">
+           minlength="1" maxlength="2" placeholder="DD" >
          </div>
 
          <div class="details-field">
-            <p> Month</p>
+            <p class="details-field-paragraph"> Month</p>
             <input type="text" name="month" id="month" required
-            minlength="1" maxlength="2">
+            minlength="1" maxlength="2" placeholder="MM" >
           </div>
 
           <div class="details-field">
-            <p> Year</p>
+            <p class="details-field-paragraph"> Year</p>
             <input type="text" name="year" id="year" required
-            minlength="4" maxlength="4">
+            minlength="4" maxlength="4" placeholder="YYYY">
            </div> 
           
           
@@ -40,7 +40,10 @@
         </article>
           
          <!--display  -->
-         <div id="age">
+         <div id="age" class="result-container">
+            <p class="result-text"><span>--</span> years</p>
+            <p class="result-text"><span >--</span> months</p>
+            <p class="result-text"><span >--</span> days</p>
 
          </div>
 
