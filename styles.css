@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400;1,500&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 94%); 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.label-box{
+    max-width: 32rem;
+    height: 20rem;
+    border-radius:1rem 1rem 7rem ;
+    background: hsl(0, 0%, 100%); 
+    margin-top: 6rem;
+    
+}
+.details{
+    display: flex; 
+}
+
+
+p{
+    margin: .7rem 3rem;
+    font-weight:100 ;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+
+.input-field{
+   display: flex;
+}
+
+input{
+    width: 3.5rem;
+    height: 1.2rem;
+    margin: 0 2.5rem;
+    border-radius: .1rem .3rem .3rem .1rem;
+    outline: none;
+    border:  groove .09rem hsl(0, 0%, 100%) ;
+    font-weight: 700;
+    
+    
+}
+
+input[type=text]:hover{
+    border:  groove .09rem hsl(259, 100%, 65%) ;
+    cursor: pointer;
+}
+
+.arrow-section{
+    background:  url("/images/icon-arrow.svg") center  no-repeat ;
+    background-color: hsl(259, 100%, 65%);
+    background-size: 25px;
+    border-radius: 50% ;
+    width: 3rem;  
+    height: 3rem;
+    overflow: hidden;
+    margin-top: 5rem;
+            
+}
+
+.arrow-section:hover{
+    background-color:  hsl(0, 0%, 8%);
+    cursor: pointer;
+
+}
+
+
+
+#age{
+    margin-left: 1rem; 
+    font-size: 2.4rem;
+    overflow: hidden; 
+    font-family: 'Poppins', sans-serif;
+    padding: .5rem .5rem ;
+    font-weight: 1000;
+}
+
+span {
+    color: hsl(259, 100%, 65%);
+}
+
+
